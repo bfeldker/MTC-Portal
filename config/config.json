@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mtc-portal-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mtcPortalSearch/MtcPortalSearchWebPart.js",
+          "manifest": "./src/webparts/mtcPortalSearch/MtcPortalSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MtcPortalSearchWebPartStrings": "lib/webparts/mtcPortalSearch/loc/{locale}.js"
+  }
+}
